@@ -8,12 +8,12 @@
       ```
     * CPU
      
-     Performance is primarily bounded by IO (disk and network) rather than CPU. Available CPUs will impact longer running operations and also the thread  
-     allocation algorithms of the web container.
-       
-     Minimum CPUs: 4
-       
-     Recommended CPUs: 8+
+      Performance is primarily bounded by IO (disk and network) rather than CPU. Available CPUs will impact longer running operations and also the thread  
+      allocation algorithms of the web container.
+
+      Minimum CPUs: 4
+
+      Recommended CPUs: 8+
     * Memory
          
       8GB minimum  >>>> Memory Configuration
