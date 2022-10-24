@@ -6,7 +6,7 @@ Local repository manager organizes, stores and distributes artifacts needed for 
 
    
 # Content
-  * [Sonatype Nexus Repository Manager](/Nexus/Nexus.md)
+  * [Sonatype Nexus Repository Manager](/Nexus/README.md)
   * JFrog Artifactory
 
 
