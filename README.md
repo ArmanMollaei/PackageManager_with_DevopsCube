@@ -7,12 +7,13 @@ Local repository manager organizes, stores and distributes artifacts needed for 
    
 # Content
   * [Sonatype Nexus Repository Manager](/Nexus/README.md)
+  * Harbor
   * JFrog Artifactory
 
 
 
-# In Progress Task:
- * Harbor
+
+
 
 
 # Reference:
