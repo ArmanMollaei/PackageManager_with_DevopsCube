@@ -64,6 +64,18 @@ There are two general approaches to handling persistent storage requirements wit
     $ docker run -d -p 8081:8081 --name nexus -v /some/dir/nexus-data:/nexus-data sonatype/nexus3
     ```
 
+  * To test:
+    ```
+    $ curl http://localhost:8081/nexus/service/local/status
+    ```
+  * The UI is accessible at: http://localhost:8081/nexus/
+
+  * Default credentials are: admin / admin123
+  * It can take some time (2-3 minutes) for the service to launch in a new container. You can tail the log to determine once Nexus is ready:
+    ```
+    $ docker logs -f nexus
+    ```
+
 
 
 
