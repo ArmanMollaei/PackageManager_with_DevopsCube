@@ -3,7 +3,7 @@
 # Content
 
 * [Nexus Concepts:](/Nexus/Nexus_Concepts.md)
-* [Nexus Setup:](/Nexus/Nexus_Installation.md)
+* [Nexus Installation:](/Nexus/Nexus_Installation.md)
 
 
 * [Nexus Scenario:](/Nexus/Scenario/)
