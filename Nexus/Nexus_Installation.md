@@ -63,7 +63,26 @@ There are two general approaches to handling persistent storage requirements wit
     $ mkdir /some/dir/nexus-data && chown -R 200 /some/dir/nexus-data
     $ docker run -d -p 8081:8081 --name nexus -v /some/dir/nexus-data:/nexus-data sonatype/nexus3
     ```
+ OR Run with docker.compose.yml
 
+    ```
+       version: '3.7'
+       services:
+         nexus:
+           image: sonatype/nexus3:3.41
+           volumes:
+             - nexus-data:/nexus-data
+           ports:
+             - '8081:8081'
+             - '8443:8443'
+           logging:
+             options:
+               max-size: 10m
+               max-file: "3"
+       volumes:
+         nexus-data:
+    ```
+   
   * To test:
     ```
     $ curl http://localhost:8081/nexus/service/local/status
